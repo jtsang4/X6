@@ -31273,15 +31273,19 @@ void-elements@^2.0.0, void-elements@^2.0.1:
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
-vue-demi@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.npm.taobao.org/vue-demi/download/vue-demi-0.7.4.tgz#4c6be525788e1f6b3fd5d4f5f9f2148cf6645979"
-  integrity sha1-TGvlJXiOH2s/1dT1+fIUjPZkWXk=
+vue-demi@^0.7.1:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.7.2.tgz#bb450837d8f36b293d3f9fbaec60570bae3c6b0a"
+  integrity sha512-cRaQymWYC3gcj3Y8CGDjPI7r2BIvHNMuoLSlfyo7CeqtFzV6eIlYK7xPnExPl4m3j6y5D1FOqdclEIWeim5EJg==
 
-vue@^2.6.12:
-  version "2.6.12"
-  resolved "https://registry.npmjs.org/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
-  integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+vue@^3.0.5:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.7.tgz#8bcff51f8be570f9e4ce8cc5f52e2ab0fe3c74a1"
+  integrity sha512-8h4TikD+JabbMK9aRlBO4laG0AtNHRPHynxYgWZ9sq1YUPfzynd9Jeeb27XNyZytC7aCQRX9xe1+TQJuc181Tw==
+  dependencies:
+    "@vue/compiler-dom" "3.0.7"
+    "@vue/runtime-dom" "3.0.7"
+    "@vue/shared" "3.0.7"
 
 w3c-hr-time@^1.0.1, w3c-hr-time@^1.0.2:
   version "1.0.2"
