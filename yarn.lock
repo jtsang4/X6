@@ -4191,6 +4191,23 @@
   resolved "https://registry.npmjs.org/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
+"@snyk/graphlib@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@snyk/graphlib/-/graphlib-3.2.0.tgz#9388e17fefe9bd631b037a0525f88891d9fca187"
+  integrity sha512-774Wkru8ptRtTmb0sOKufkPQ2wYfKEfa9faZQh3FJwrWJkyR96hQmGm1ig9gedRXBmQrHr9gbem7kA53yxXfaQ==
+  dependencies:
+    lodash.clone "^4.5.0"
+    lodash.constant "^3.0.0"
+    lodash.filter "^4.6.0"
+    lodash.has "^4.5.2"
+    lodash.isempty "^4.4.0"
+    lodash.isfunction "^3.0.9"
+    lodash.map "^4.6.0"
+    lodash.reduce "^4.6.0"
+    lodash.size "^4.2.0"
+    lodash.transform "^4.6.0"
+    lodash.union "^4.6.0"
+
 "@stackblitz/sdk@^1.3.0", "@stackblitz/sdk@^1.4.0":
   version "1.5.2"
   resolved "https://registry.npmjs.org/@stackblitz/sdk/-/sdk-1.5.2.tgz#8589c4f6dd8df69bc82f67c2677754ef87ab16f3"
@@ -19563,10 +19580,20 @@ lodash.camelcase@^4.1.1, lodash.camelcase@^4.3.0:
   resolved "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
+lodash.clone@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clone/-/lodash.clone-4.5.0.tgz#195870450f5a13192478df4bc3d23d2dea1907b6"
+  integrity sha1-GVhwRQ9aExkkeN9Lw9I9LeoZB7Y=
+
 lodash.clonedeep@4.5.0, lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
+lodash.constant@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lodash.constant/-/lodash.constant-3.0.0.tgz#bfe05cce7e515b3128925d6362138420bd624910"
+  integrity sha1-v+Bczn5RWzEokl1jYhOEIL1iSRA=
 
 lodash.debounce@^4.0.0, lodash.debounce@^4.0.8:
   version "4.0.8"
@@ -19593,6 +19620,11 @@ lodash.every@^4.6.0:
   resolved "https://registry.npmjs.org/lodash.every/-/lodash.every-4.6.0.tgz#eb89984bebc4364279bb3aefbbd1ca19bfa6c6a7"
   integrity sha1-64mYS+vENkJ5uzrvu9HKGb+mxqc=
 
+lodash.filter@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.filter/-/lodash.filter-4.6.0.tgz#668b1d4981603ae1cc5a6fa760143e480b4c4ace"
+  integrity sha1-ZosdSYFgOuHMWm+nYBQ+SAtMSs4=
+
 lodash.flatten@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
@@ -19618,10 +19650,25 @@ lodash.groupby@4.6.0, lodash.groupby@^4.6.0:
   resolved "https://registry.npmjs.org/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
   integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
 
+lodash.has@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/lodash.has/-/lodash.has-4.5.2.tgz#d19f4dc1095058cccbe2b0cdf4ee0fe4aa37c862"
+  integrity sha1-0Z9NwQlQWMzL4rDN9O4P5Ko3yGI=
+
+lodash.isempty@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
+  integrity sha1-b4bL7di+TsmHvpqvM8loTbGzHn4=
+
 lodash.isequal@^4.0.0, lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
+lodash.isfunction@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
+  integrity sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==
 
 lodash.ismatch@^4.4.0:
   version "4.4.0"
@@ -19668,6 +19715,16 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
+lodash.reduce@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.reduce/-/lodash.reduce-4.6.0.tgz#f1ab6b839299ad48f784abbf476596f03b914d3b"
+  integrity sha1-8atrg5KZrUj3hKu/R2WW8DuRTTs=
+
+lodash.size@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.size/-/lodash.size-4.2.0.tgz#71fe75ed3eabdb2bcb73a1b0b4f51c392ee27b86"
+  integrity sha1-cf517T6r2yvLc6GwtPUcOS7ie4Y=
+
 lodash.snakecase@^4.0.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
@@ -19708,6 +19765,11 @@ lodash.topairs@^4.3.0:
   resolved "https://registry.npmjs.org/lodash.topairs/-/lodash.topairs-4.3.0.tgz#3b6deaa37d60fb116713c46c5f17ea190ec48d64"
   integrity sha1-O23qo31g+xFnE8RsXxfqGQ7EjWQ=
 
+lodash.transform@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
+  integrity sha1-EjBkIvYzJK7YSD0/ODMrX2cFR6A=
+
 lodash.truncate@^4.4.2:
   version "4.4.2"
   resolved "https://registry.npmjs.org/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
@@ -19717,6 +19779,11 @@ lodash.unescape@4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
+
+lodash.union@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
+  integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
 lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -21017,14 +21084,14 @@ moment@2.x, moment@^2.15.1, moment@^2.22.1, moment@^2.24.0, moment@^2.25.3, mome
   resolved "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
-monaco-editor-webpack-plugin@2.0.0, monaco-editor-webpack-plugin@^2.0.0:
+monaco-editor-webpack-plugin@^2.0.0:
   version "2.0.0"
   resolved "https://registry.nlark.com/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-2.0.0.tgz#196052f23678285deca7a7baf4d7aebe9d1ff9e1"
   integrity sha1-GWBS8jZ4KF3sp6e69Neuvp0f+eE=
   dependencies:
     loader-utils "^2.0.0"
 
-monaco-editor@*, monaco-editor@0.21.0, monaco-editor@^0.21.0:
+monaco-editor@*, monaco-editor@^0.21.0:
   version "0.21.0"
   resolved "https://registry.nlark.com/monaco-editor/download/monaco-editor-0.21.0.tgz?cache=0&sync_timestamp=1623961471145&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmonaco-editor%2Fdownload%2Fmonaco-editor-0.21.0.tgz#35d964cbeff8b035d574bb113e9491331810d5f1"
   integrity sha1-Ndlky+/4sDXVdLsRPpSRMxgQ1fE=
@@ -24589,6 +24656,14 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+rapidom@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/rapidom/-/rapidom-0.1.1.tgz#f0ef1555afe227777541760b62247e1db5323e7f"
+  integrity sha512-FS9ecP5UUNDAPP4cl3H7QZFRn1awcbp5O8wPX1mMZVCyeE7jGmfynVax69lLqvn5tzS2INPz7hKUXkFItvdUxQ==
+  dependencies:
+    "@snyk/graphlib" "^3.2.0"
+    react "^16.12.0"
 
 raw-body@2.4.0:
   version "2.4.0"

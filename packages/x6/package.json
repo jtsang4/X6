@@ -71,6 +71,7 @@
     "jquery-mousewheel": "^3.1.13",
     "lodash-es": "^4.17.15",
     "mousetrap": "^1.6.5",
+    "rapidom": "^0.1.1",
     "utility-types": "^3.10.0"
   },
   "devDependencies": {
