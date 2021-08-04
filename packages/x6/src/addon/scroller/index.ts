@@ -1,4 +1,3 @@
-import fastdom from 'fastdom'
 import { Platform, NumberExt, ObjectExt, Dom, FunctionExt } from '../../util'
 import { Point, Rectangle } from '../../geometry'
 import { Model } from '../../model/model'
@@ -381,29 +380,26 @@ export class Scroller extends View {
   }
 
   update() {
-    fastdom.measure(() => {
-      const size = this.getClientSize()
-      this.cachedCenterPoint = this.clientToLocalPoint(
-        size.width / 2,
-        size.height / 2,
-      )
-      fastdom.mutate(() => {
-        let resizeOptions =
-          this.options.autoResizeOptions || this.options.fitTocontentOptions
-        if (typeof resizeOptions === 'function') {
-          resizeOptions = FunctionExt.call(resizeOptions, this, this)
-        }
+    const size = this.getClientSize()
+    this.cachedCenterPoint = this.clientToLocalPoint(
+      size.width / 2,
+      size.height / 2,
+    )
 
-        const options: TransformManager.FitToContentFullOptions = {
-          gridWidth: this.options.pageWidth,
-          gridHeight: this.options.pageHeight,
-          allowNewOrigin: 'negative',
-          ...resizeOptions,
-        }
+    let resizeOptions =
+      this.options.autoResizeOptions || this.options.fitTocontentOptions
+    if (typeof resizeOptions === 'function') {
+      resizeOptions = FunctionExt.call(resizeOptions, this, this)
+    }
 
-        this.graph.fitToContent(this.getFitToContentOptions(options))
-      })
-    })
+    const options: TransformManager.FitToContentFullOptions = {
+      gridWidth: this.options.pageWidth,
+      gridHeight: this.options.pageHeight,
+      allowNewOrigin: 'negative',
+      ...resizeOptions,
+    }
+
+    this.graph.fitToContent(this.getFitToContentOptions(options))
   }
 
   protected getFitToContentOptions(
